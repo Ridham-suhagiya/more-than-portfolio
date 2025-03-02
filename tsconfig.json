@@ -6,13 +6,11 @@
         "jsx": "react", // Support JSX syntax
         "strict": false,
         "outDir": "./dist", // Output compiled files here
-        "rootDir": "./templates", // Source files located in src
+        "rootDir": "./src", // Source files located in src
         "baseUrl": ".",
         "esModuleInterop": true,
         "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true,
-        "noEmit": true,
-        "allowImportingTsExtensions": true
+        "allowSyntheticDefaultImports": true
     },
-    "include": ["templates/**/*"] // Include all TypeScript/TSX files in src folder and react.tsx
+    "include": ["src/**/*"] // Include all TypeScript/TSX files in src folder and react.tsx
 }

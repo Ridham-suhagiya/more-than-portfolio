@@ -21,7 +21,8 @@
     "frontend"
   ],
   "scripts": {
-    "build": "tsc"
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "devDependencies": {
     "@parcel/optimizer-svgo": "^2.13",
