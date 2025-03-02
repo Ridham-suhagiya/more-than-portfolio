@@ -1,0 +1,42 @@
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    gap: 15px;
+    z-index: 100;
+    position: relative;
+    overflow: visible;
+}
+
+.skill-chip {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: float 3s ease-in-out infinite;
+    cursor: pointer;
+    position: relative;
+    img {
+        margin: 0;
+    }
+}
+
+.skill-chip.no-float {
+    animation: none; /* Disable float animation during cursor interaction */
+}
+
+.skill-chip img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.skill-chip span {
+    font-size: 0.9rem;
+    color: #e0d7ff;
+}

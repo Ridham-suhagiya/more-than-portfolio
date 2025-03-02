@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "jsx": "react", // Support JSX syntax
+        "strict": false,
+        "outDir": "./dist", // Output compiled files here
+        "rootDir": "./src", // Source files located in src
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*"] // Include all TypeScript/TSX files in src folder and react.tsx
+}

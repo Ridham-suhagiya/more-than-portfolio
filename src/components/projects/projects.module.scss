@@ -1,0 +1,44 @@
+h1,
+h2 {
+    color: #9b5de5;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3.5rem; /* Increased font size */
+    animation: fadeIn 1s ease-in-out, typing 3s steps(40, end) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #9b5de5; /* Typing cursor effect */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+li {
+    font-size: 1.1rem;
+    color: #e0d7ff;
+    opacity: 0.9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: unset;
+}
+
+li:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+    border: 1px solid #9b5de5;
+}

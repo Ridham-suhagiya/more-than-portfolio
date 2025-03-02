@@ -1,0 +1,18 @@
+header {
+    background: linear-gradient(135deg, #2a2471, #1e1b4b);
+    border-radius: 15px;
+    animation: fadeIn 1s ease-in-out;
+    display: flex;
+    justify-content: space-between; /* Space for smaller images */
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1vw; /* Larger font size */
+    margin: 0;
+}
+
+header p {
+    font-size: 1.8rem; /* Larger font size */
+    opacity: 0.9;
+}

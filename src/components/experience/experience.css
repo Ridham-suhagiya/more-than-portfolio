@@ -1,0 +1,95 @@
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: 1px solid #9b5de5;
+}
+
+.experience-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #9b5de5; /* Highlight color */
+}
+
+.experience-card .duration {
+    font-size: 0.9rem;
+    color: #e0d7ff;
+    margin-bottom: 15px;
+}
+
+.experience-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-card li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.experience-card li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.experience-container {
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.experience-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-button {
+    width: 100%;
+    padding: 15px;
+    background: #9b5de5; /* Purple accent color */
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    transition: background 0.3s ease;
+}
+
+.toggle-button:hover {
+    background: #7a4dbb; /* Darker purple on hover */
+}
+
+.experience-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    padding: 0 20px;
+}
+
+.experience-content.expanded {
+    max-height: 1000px; /* Adjust based on content */
+    padding: 20px;
+}
+
+.experience-content.collapsed {
+    max-height: 0;
+    padding: 0 20px;
+}
