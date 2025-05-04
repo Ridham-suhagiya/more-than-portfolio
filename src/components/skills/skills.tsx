@@ -7,6 +7,10 @@ import postgres from "../../images/svg/postgres.svg";
 import mySql from "../../images/svg/mysql.svg";
 import redis from "../../images/svg/redis.svg";
 import flask from "../../images/svg/flask.svg";
+import googleCloud from "../../images/svg/Google Cloud Icons.svg";
+import docker from "../../images/svg/Docker SVG Icons.svg";
+import rabbitmq from "../../images/svg/RabbitMQ Icon.svg";
+import css from "../../images/svg/CSS Vector Icon.svg";
 
 import "./skills.css";
 
@@ -20,6 +24,10 @@ const Skills = () => {
         { name: "MySQL", icon: mySql },
         { name: "Redis", icon: redis },
         { name: "Flask", icon: flask },
+        { name: "GCP", icon: googleCloud },
+        { name: "Docker", icon: docker },
+        { name: "Rabbit-MQ", icon: rabbitmq },
+        { name: "CSS", icon: css },
     ];
 
     // Function to handle mouse movement
