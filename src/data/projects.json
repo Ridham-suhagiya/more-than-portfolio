@@ -1,0 +1,56 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Instagram Clone",
+            "techStack": "React, OAuth, Node, Express, Instagram Graph API",
+            "description": "An interactive Instagram UI clone with image feed, session handling, and responsive design",
+            "features": [
+                "📸 Made Instagram's twin that'll fool your friends! Swipe till your thumb hurts! [Code](https://github.com/Ridham-suhagiya/Instagram-clone-frontent)",
+                "🔐 Login magic so smooth you'll forget passwords were ever a thing! [Backend](https://github.com/Ridham-suhagiya/Instagram-clone-backend)"
+            ],
+            "links": {
+                "frontend": "https://github.com/Ridham-suhagiya/Instagram-clone-frontent",
+                "backend": "https://github.com/Ridham-suhagiya/Instagram-clone-backend",
+                "live": "https://instaclonedfrontend.netlify.app"
+            },
+            "preview": "https://instaclonedfrontend.netlify.app"
+        },
+        {
+            "id": 2,
+            "title": "Real-Time Chatting System",
+            "techStack": "Go, React, WebSockets, Docker",
+            "description": "A real-time chat application with private and group messaging capabilities",
+            "features": [
+                "💬 Chat app so fast it's basically telepathy! [UI](https://github.com/Ridham-suhagiya/chatting-system-frontend)",
+                "⚡ Go backend that makes Flash look like a turtle! [Backend](https://github.com/Ridham-suhagiya/chatting-system-backend)",
+                "🐳 Docker-ized like a boss. It's adult Lego! [Containers](https://github.com/Ridham-suhagiya/chatting-system-backend)",
+                "🔗 One-click invites. No blood sacrifices required! [Try it](https://chatting-system.netlify.app/login)"
+            ],
+            "links": {
+                "frontend": "https://github.com/Ridham-suhagiya/chatting-system-frontend",
+                "backend": "https://github.com/Ridham-suhagiya/chatting-system-backend",
+                "live": "https://chatting-system.netlify.app/login"
+            },
+            "preview": "https://chatting-system.netlify.app/login"
+        },
+        {
+            "id": 3,
+            "title": "Custom React Implementation",
+            "techStack": "TypeScript, Virtual DOM, Parcel, Custom React Library",
+            "description": "A lightweight React-like library implementation with virtual DOM and component lifecycle management",
+            "features": [
+                "🎨 Built a custom React-like library from scratch with Virtual DOM",
+                "⚡ Implemented component lifecycle methods and state management",
+                "🔄 Created efficient DOM diffing and patching algorithms",
+                "📦 Published as an npm package for easy project bootstrapping"
+            ],
+            "links": {
+                "template": "https://github.com/Ridham-suhagiya/custom-react-template",
+                "framework": "https://github.com/Ridham-suhagiya/React",
+                "live": "https://more-than-portfolio.netlify.app"
+            },
+            "preview": "https://more-than-portfolio.netlify.app"
+        }
+    ]
+}

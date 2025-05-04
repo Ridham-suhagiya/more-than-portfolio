@@ -6,7 +6,6 @@ const Experience = () => {
     const ShowExperience = (props: any) => {
         const { children } = props;
         const [toggleExperience, setToggleExperience] = useState(false);
-        console.log(toggleExperience);
         return createElement(
             "div",
             { className: "experience-container" },
